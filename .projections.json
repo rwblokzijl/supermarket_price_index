@@ -1,0 +1,4 @@
+{
+    "supermarkt_price_index/*.py": {"alternate": "test/{dirname}/test_{basename}.py"},
+    "test/**/test_*.py": {"alternate": "supermarkt_price_index/{dirname}/{basename}.py"}
+}
